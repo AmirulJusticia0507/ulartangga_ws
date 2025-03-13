@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import home  # Ganti 'index' menjadi 'home'
+from .views import index  # Ganti 'views' menjadi 'index'
 
 urlpatterns = [
-    path('', home, name='home'),  # Sesuaikan dengan nama fungsi di views.py
+    path('', index, name='index'),  # Sesuaikan dengan nama fungsi di views.py
 ]
